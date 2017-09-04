@@ -1,0 +1,218 @@
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+font-family: 'Montserrat', sans-serif;
+}
+.navbar{
+  border: none;
+  padding: .5rem 1rem;
+}
+.navbar-default{
+  background-color: #222;
+}
+
+.navbar-default .navbar-brand{
+  color: #fed136;
+  font-family: 'Kaushan Script','Helvetica Neue',Helvetica,Arial,cursive;
+  font-size: 24px;
+}
+
+.navbar-toggle{
+  background-color: #fed136;
+}
+.navbar-default .navbar-nav>li>a{
+  color: white;
+  text-transform: uppercase;
+}
+.links{
+  float: right;
+}
+
+.parte1{
+  background-image: url("../img/header-bg.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  color: white;
+  width: 100%;
+  display: block;
+  padding-bottom: 50px;
+  padding-top: 60px;
+}
+.text1{
+  padding-top: 220px;
+  padding-bottom: 180px;
+}
+.title{
+  font-size: 30px;
+  font-family: 'Spectral', serif;
+  line-height: 22px;
+  margin-bottom: 25px;
+}
+.mainTitle{
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 50px;
+  margin-bottom: 25px;
+  font-family: Montserrat,'Helvetica Neue',Helvetica,Arial,sans-serif;
+}
+
+.btn1{
+  font-size: 18px;
+  font-weight: 700;
+  padding: 20px 40px;
+  border-radius: 3px;
+  color: #fff;
+  border-color: #fed136;
+  background-color: #fed136;
+  font-family: Montserrat,'Helvetica Neue',Helvetica,Arial,sans-serif;
+}
+
+/* Parte 2 */
+.parte2{
+  padding: 100px 0px;
+  color: black;
+}
+.mainTitle2{
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.text-primary{
+  color: #fed136;
+}
+.Icons{
+  margin-top: 50px;
+  color: black;
+}
+.iconTitle{
+  font-weight: 700;
+}
+.Icons i{
+  margin-bottom: 15px;
+}
+
+/* Parte 3 */
+.parte3{
+	background-color: #eae8e8;
+	padding: 100px 0;
+  color: black;
+}
+.mainTitle3{
+  font-size: 40px;
+  font-weight: 700;
+  margin-top: 0;
+  margin-bottom: 15px;
+}
+
+.text3{
+  font-size: 16px;
+    font-weight: 400;
+    font-style: italic;
+    margin-bottom: 75px;
+    text-transform: none;
+    font-family: 'Droid Serif','Helvetica Neue',Helvetica,Arial,sans-serif;
+}
+
+.portCont{
+  padding: 0 20px;
+}
+.portImg{
+  position: relative;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  max-width: 400px;
+}
+.img-responsive{
+  width: 100%;
+  height: auto;
+}
+
+.caption{
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 25px;
+  text-align: center;
+  background-color: #fff;
+  font-size: 16px;
+  font-style: italic;
+  font-family: 'Droid Serif','Helvetica Neue',Helvetica,Arial,sans-serif;
+}
+
+.titleImg{
+  font-weight: 700;
+  font-family: Arial,sans-serif;
+}
+
+/* Parte 4 */
+.parte4{
+	padding: 100px 0;
+  color: black;
+}
+
+/* Parte 5*/
+.parte5{
+  background-color: #eae8e8;
+	padding: 100px 0;
+  color: black;
+  text-align: center;
+}
+
+.textTeam{
+  color:#212529;
+  padding: 2% 13%;
+}
+
+/* Parte 6*/
+.brands{
+	padding: 35px 0;
+}
+
+/* Parte 7*/
+.parte7{
+  background-color: #222;
+  background-image: url(../img/map-image.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  color: white;
+  text-align: center;
+  padding-bottom: 60px;
+}
+
+.text7{
+  padding-top: 130px;
+  padding-bottom: 30px;
+}
+
+input{
+	height: 60px;
+  margin-bottom: 22px;
+}
+input, textarea{
+	width: 100%;
+	padding: 10px;
+	border-radius: 5px;
+}
+
+.btnContact{
+  font-size: 18px;
+  font-weight: 700;
+  padding: 20px 40px;
+  border-radius: 3px;
+  color: #fff;
+  border-color: #fed136;
+  background-color: #fed136;
+  font-family: Montserrat,'Helvetica Neue',Helvetica,Arial,sans-serif;
+  margin: 30px 0px;
+}
+
+/*Footer*/
+footer{
+	padding: 20px;
+}
